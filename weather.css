@@ -47,10 +47,7 @@ a:hover, a:visited, a:link, a:active{
     color: #d0e5f5;
 }
 .main {
-    /* background-image: linear-gradient(#424242, #757575); */
     background-color: #212121;
-    
-    
 }
 
 /* --------------------------------input section */
@@ -70,19 +67,20 @@ a:hover, a:visited, a:link, a:active{
     font-size: 1.5rem;
     border: none;
     background-color: transparent;
-    border-bottom: solid 1px #16a864;
-    color: #16a864;
+    border: 1px solid #ffffff;
+    color: #ffffff;
     border-radius: 2px;
-    margin-right:4px ;
+    margin-right:30px;
+    padding-left: 10px;
+    outline: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 .inputs input[type="submit"] {
-    height: 3.5rem;
-    width: 6.5rem;
-    background: #16a864;
+    padding: 0 10px 0 10px;
+    background: #ffffff;
     font-weight: bold;
-    color: ghostwhite;
-    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 2px;
 }
@@ -90,15 +88,19 @@ a:hover, a:visited, a:link, a:active{
 /* -------------------------------display */
 .display {
     text-align: center;
-    color: #16a864;
+    color: #ffffff;
 }
 .wrapper {
     margin: 0 9rem;
     width: 50%;
-    background-color: #212121;
-    height: 40vh;
     margin: 50px auto;
+    padding: 10px;
+    box-sizing: border-box;
     border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 
 .wrapper h2{
